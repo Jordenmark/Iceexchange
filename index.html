@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICEEXCHANGE</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,40 +19,68 @@
       margin: 0;
       padding: 20px;
     }
-    h1 {
-      font-size: 2.5rem;
-      color: #00f7ff;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       margin-bottom: 10px;
     }
+
+    .logo-icon {
+      background-color: #ff3b3b; /* red color */
+      color: #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #ff3b3b; /* red color */
+    }
+
     h2 {
       font-size: 1.5rem;
       font-weight: normal;
       color: #cccccc;
       margin-bottom: 30px;
     }
+
     .features {
       margin-bottom: 30px;
     }
+
     .features p {
       margin: 10px 0;
       font-size: 1.1rem;
     }
+
     .cta-button {
-      background-color: #00f7ff;
-      color: #000;
+      background-color: #ff3b3b; /* red color */
+      color: #fff;
       padding: 14px 28px;
       text-decoration: none;
       font-weight: bold;
       border-radius: 8px;
       transition: 0.3s ease;
     }
+
     .cta-button:hover {
-      background-color: #00c8cc;
+      background-color: #e83232;
     }
   </style>
 </head>
 <body>
-  <h1>🚀 Welcome to ICEEXCHANGE 🚀</h1>
+  <div class="logo">
+    <div class="logo-icon">IE</div>
+    <h1>ICEEXCHANGE</h1>
+  </div>
   <h2>Launch Your Own Platform Effortlessly</h2>
   <div class="features">
     <p>✅ Complete Platform Access</p>
